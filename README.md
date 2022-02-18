@@ -6,6 +6,8 @@
 ###### IaaC
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
+# AWS S3 diagram 
+![Diagram](https://github.com/ValAug/secure-s3-deployment/blob/main/s3-diagram.png)
 
 # Purpose
 
@@ -34,6 +36,7 @@ Terraform v1.0.1
 - [secure-s3-deployment](#secure-s3-deployment)
           - [Cloud - :cloud:](#cloud---cloud)
           - [IaaC](#iaac)
+- [AWS S3 diagram](#aws-s3-diagram)
 - [Purpose](#purpose)
 - [Prerequisites](#prerequisites)
 - [Providers version](#providers-version)
