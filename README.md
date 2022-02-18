@@ -14,7 +14,8 @@
 Shows how to use AWS with Terraform to accomplish the following tasks:
 
 * How to securely deploy an AWS-S3 bucket with Terraform
- 
+
+
 
 # Prerequisites
 
@@ -25,22 +26,18 @@ Shows how to use AWS with Terraform to accomplish the following tasks:
 Terraform v1.0.1
 
 ```
+# Cautions
 
-# Test
-
-* This code can be deploy in any AWS Region.
-
+* As an AWS best practice, grant this code least privilege, or only the 
+  permissions required to perform a task. For more information, see 
+  [Grant Least Privilege](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege) 
+  in the *AWS Identity and Access Management 
+  User Guide*.
+* This code has been tested in us-west-1 AWS Regions only. However it should work in any other region. 
+* Running this code __it might__ result in charges to your AWS account.
 
 # How to run this code
 
-- [secure-s3-deployment](#secure-s3-deployment)
-          - [Cloud - :cloud:](#cloud---cloud)
-          - [IaaC](#iaac)
-- [AWS S3 diagram](#aws-s3-diagram)
-- [Purpose](#purpose)
-- [Prerequisites](#prerequisites)
-- [Providers version](#providers-version)
-- [Test](#test)
 - [How to run this code](#how-to-run-this-code)
   - [Quick Start](#quick-start)
   - [Quick Destroy](#quick-destroy)
