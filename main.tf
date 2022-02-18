@@ -33,7 +33,7 @@ resource "aws_s3_bucket_public_access_block" "secure_bucket_block_pub_access" {
 
 
 resource "aws_s3_bucket" "secure_log_bucket" {
-  bucket = "target-log-bucket"
+  bucket = var.target_bucket_name
 }
 
 resource "aws_s3_bucket_acl" "secure_log_bucket_acl" {
