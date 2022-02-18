@@ -34,15 +34,17 @@ Terraform v1.0.1
 # How to run this code
 
 - [secure-s3-deployment](#secure-s3-deployment)
+          - [Cloud - :cloud:](#cloud---cloud)
+          - [IaaC](#iaac)
 - [AWS S3 diagram](#aws-s3-diagram)
 - [Purpose](#purpose)
 - [Prerequisites](#prerequisites)
 - [Providers version](#providers-version)
 - [Test](#test)
 - [How to run this code](#how-to-run-this-code)
-- [Quick Start](#quick-start)
-- [Quick Destroy](#quick-destroy)
-- [Notes](#notes)
+  - [Quick Start](#quick-start)
+  - [Quick Destroy](#quick-destroy)
+  - [Notes](#notes)
 
 ## Quick Start
 
