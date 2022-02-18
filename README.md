@@ -7,10 +7,6 @@
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
 
-# Infra diagram 
-![Diagram]()
-
-
 # Purpose
 
 Shows how to use AWS with Terraform to accomplish the following tasks:
@@ -38,7 +34,6 @@ Terraform v1.0.1
 - [secure-s3-deployment](#secure-s3-deployment)
           - [Cloud - :cloud:](#cloud---cloud)
           - [IaaC](#iaac)
-- [Infra diagram](#infra-diagram)
 - [Purpose](#purpose)
 - [Prerequisites](#prerequisites)
 - [Providers version](#providers-version)
