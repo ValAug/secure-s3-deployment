@@ -1,7 +1,7 @@
 #--variable/root--
 
 variable "bucket_name" {
-    default = "source-bucket-account-a-name"
+    default = "destination-bucket-name-account-b"
 }
 
 variable "target_bucket_name" {

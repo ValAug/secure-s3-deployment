@@ -27,7 +27,7 @@ resource "aws_s3_bucket_policy" "secure_bucket_policy" {
                 "s3:PutObject",
                 "s3:PutObjectAcl"
             ],
-            "Resource": "${aws_s3_bucket.destination_bucket.arn}/*"
+            "Resource": "${aws_s3_bucket.secure_bucket.arn}/*"
         }
     ]
 }
