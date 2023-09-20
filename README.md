@@ -1,3 +1,8 @@
+<!-- retro visitor counter -->
+<p align="center"> 
+  <img src="https://profile-counter.glitch.me/secure-s3-deployment/count.svg" />
+</p>
+
 # secure-s3-deployment
 
 ###### Cloud - :cloud:
