@@ -24,6 +24,9 @@ Shows how to use AWS with Terraform to accomplish the following tasks:
 
 # Prerequisites
 
+* Once account B is completed you must copy the output of the __lambda_execution_role.arn__:
+    - __arn:aws:iam::account-b-id:role/lambda_execution_role__  - COPY THIS ARN and Paste it in the __secure_bucket_policy__
+
 * You must have Terraform installed [How to install terraform guide](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 # Providers version
