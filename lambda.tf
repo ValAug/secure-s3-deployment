@@ -16,12 +16,4 @@ resource "aws_lambda_function" "copy_s3_objects" {
   memory_size = 2048
 }
 
-resource "aws_lambda_permission" "allow_source_copy_bucket" {
-  statement_id  = "allowexecution-from-source"
-  action        = "lambda:InvokeFunction"
-  function_name = aws_lambda_function.copy_s3_objects.arn
-  principal     = "s3.amazonaws.com"
-  source_arn    = aws_s3_bucket.secure_bucket.arn
-}
-
 
