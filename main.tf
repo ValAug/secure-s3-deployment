@@ -11,7 +11,28 @@ resource "aws_s3_bucket" "secure_bucket" {
 
 }
 
+resource "aws_s3_bucket_policy" "secure_bucket_policy" {
+  bucket = "${aws_s3_bucket.secure_bucket.id}"
 
+  policy = <<EOT
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::account-b-id:role/lambda_execution_role"
+            },
+            "Action": [
+                "s3:PutObject",
+                "s3:PutObjectAcl"
+            ],
+            "Resource": "${aws_s3_bucket.destination_bucket.arn}/*"
+        }
+    ]
+}
+EOT
+}
 
 # resource "aws_s3_bucket_acl" "secure_bucket_acl" {
 #   bucket = aws_s3_bucket.secure_bucket.id
